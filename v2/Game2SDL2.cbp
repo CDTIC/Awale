@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game2SDL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game2SDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libmingw32.a" />
+					<Add library="lib/libSDL2main.a" />
+					<Add library="lib/libSDL2.dll.a" />
+					<Add library="lib/libSDL2_image.dll.a" />
+					<Add library="lib/libSDL2_image.a" />
+					<Add library="lib/libSDL2_ttf.dll.a" />
+					<Add library="lib/libSDL2_ttf.a" />
+					<Add library="lib/libSDL2_mixer.dll.a" />
+					<Add library="lib/libSDL2_mixer.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/DispositionInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Info choix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/InitPlateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SetRand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/accueil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficheInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficheNbr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficheScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/changer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/defCase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/initCaillou.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mouvement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/recuperer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/suivant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tabInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/viderCase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
